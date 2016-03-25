@@ -18,5 +18,9 @@
     "name": "kennyoh",
     "email": "scarfunk@naver.com"
   },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/scarfunk/number-zero"
+  },
   "license": "ISC"
 }
