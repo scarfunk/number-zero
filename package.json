@@ -1,0 +1,22 @@
+{
+  "name": "number-zero",
+  "version": "1.0.1",
+  "description": "just 0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "number",
+    "zero",
+    "number-zero",
+    "fizz",
+    "buzz",
+    "weirdmeetup"
+  ],
+  "author": {
+    "name": "kennyoh",
+    "email": "scarfunk@naver.com"
+  },
+  "license": "ISC"
+}
