@@ -1,0 +1,24 @@
+environment:
+  matrix:
+    - nodejs_version: "5"
+    - nodejs_version: "5.1"
+    - nodejs_version: "4"
+    - nodejs_version: "4.2"
+    - nodejs_version: "4.1"
+    - nodejs_version: "4.0"
+    - nodejs_version: "0.12"
+    - nodejs_version: "0.11"
+    - nodejs_version: "0.10"
+    - nodejs_version: "0.8"
+    - nodejs_version: "0.6"
+    - nodejs_version: "iojs"
+install:
+  - ps: Install-Product node $env:nodejs_version
+  - npm install
+test_script:
+  - npm run lint
+  - npm test
+cache:
+  - C:\Users\appveyor\AppData\Roaming\npm\node_modules -> package.json
+  - C:\Users\appveyor\AppData\Roaming\npm-cache -> package.json
+  - node_modules -> package.json
