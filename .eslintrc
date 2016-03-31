@@ -1,0 +1,7 @@
+{
+  "extends": "eslint-config-airbnb/legacy",
+  "env": {
+    "node": true,
+    "mocha": true,
+  }
+}
